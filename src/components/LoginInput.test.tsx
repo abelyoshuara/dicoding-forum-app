@@ -17,7 +17,7 @@ describe("LoginInput component", () => {
   it("should the email input be displayed", () => {
     // Arrange
     render(<LoginInput onLogin={() => {}} isLoading={false} />);
-    const emailInput = screen.getByPlaceholderText("Email");
+    const emailInput = screen.getByPlaceholderText("Emails");
 
     // Action
 
