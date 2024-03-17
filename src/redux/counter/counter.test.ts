@@ -8,6 +8,7 @@
  * - should return 5 after the incrementByAmount function was called
  */
 
+import { describe, expect, it } from "vitest";
 import reducer, {
   decrement,
   increment,

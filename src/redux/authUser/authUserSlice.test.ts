@@ -7,6 +7,7 @@
  * - should return the initial state after the unsetAuthUser function was called
  */
 
+import { describe, expect, it } from "vitest";
 import reducer, {
   initialState,
   setAuthUser,
