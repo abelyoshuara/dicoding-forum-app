@@ -100,6 +100,7 @@ function Header() {
                         type="button"
                         className="btn btn-ghost flex cursor-pointer px-0"
                         tabIndex={0}
+                        data-testid={email}
                       >
                         <img src={avatar} alt={name} />
                       </button>
