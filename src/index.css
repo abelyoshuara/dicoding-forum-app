@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbar-item {
+    @apply hover:text-blue-500 !important;
+  }
+
+  .chip {
+    @apply cursor-pointer rounded-lg border border-slate-300 px-3 py-1 dark:border-slate-500;
+  }
+
+  .chip.active {
+    @apply bg-slate-800 text-slate-200 dark:bg-slate-100 dark:text-slate-950;
+  }
+
+  .multi-line-text-truncate {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+    width: 100%;
+  }
+}
