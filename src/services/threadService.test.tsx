@@ -30,6 +30,6 @@ describe("Thread service", () => {
       return result.current.isSuccess;
     });
 
-    expect(undefined).toEqual(mockData.getThreads.data.threads);
+    expect(result.current.data).toEqual(mockData.getThreads.data.threads);
   });
 });
